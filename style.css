@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(160, 241, 235);
+}
+
+
+
+.Title h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white;
+    letter-spacing: 4px;
+    height: 7vh;
+    margin: 10px 10px;
+}
+
+.Title p {
+    padding: 10px 10px;
+    height: 10vh;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    word-spacing: 3px;
+    box-shadow: 1px 1px 1px 2px rgb(14, 14, 14);
+}
+.docker{
+    display: flex;
+}
+.Docker-input {
+    background-color: white;
+    height: 80vh;
+    width: 50vw;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.Docker-input h1 {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.Docker-input .Input {
+    background-color: white;
+    margin: 10px;
+}
+
+.Docker-input .form-text {
+    border-radius: 5px;
+    background-color: white;
+    border-top-style: solid;
+    border-bottom-style: groove;
+}
+
+.Docker-input .u-input {
+    font-weight: bold;
+    height: 21px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.Docker-input .su-input {
+    font-weight: bold;
+    height: 21px;
+    width: 200px;
+}
+
+.Docker-input .button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.Docker-input .button button {
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    width: 125px;
+    height: 25px;
+}
+
+.Docker-input .button button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Docker-input .Launch-Details {
+    height: 40px;
+    background-color: white;
+    font-weight: 800;
+    word-spacing: 5px;
+}
+
+.Docker-input .Container-List {
+    /* border: 1px solid black; */
+    height: 393px;
+    background-color: white;
+    font-weight: 800;
+    word-spacing: 5px;
+    overflow-y: scroll;
+}
+
+.Container-table {
+    margin-left: 50px;
+    padding: 5px;
+    background-color: white;
+}
+
+.Container-table table {
+    background-color: white;
+}
+
+.output-table td {
+    background-color: white;
+    color: black;
+}
+
+.Container-table table th {
+    background-color: white;
+    color: black;
+}
+
+
+
+.Container-table table tr td a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.Container-table table tr td a span {
+    background-color: white;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+
+.Container-table table tr td a:hover {
+    color: blue;
+}
+
+#containerrun span {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.shell{
+    display: block;
+    margin-top: 10px;
+    height: 86vh;
+    width: 50vw;
+}
+
+
+
+.linux-cmd{
+    border: 1px solid black;
+    height: 10vh;
+    width: 50vw;
+    background: #fff;
+}
+.linux-cmd span{
+    background: #fff;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.linux-cmd span input{
+    background: #fff;
+    font-weight: 500;
+    width: 30vw;
+    border-top-style: hidden;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: groove;
+}
+.linux-cmd span input:focus{
+    outline: none;
+}
+
+.linux-cmd button{
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    width: 125px;
+    height: 25px;
+}
+.linux-cmd button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.Linux-shell{
+    border: 1px solid black;
+    height: 25vh;
+    width: 50vw;
+    background: white;
+    padding: 10px;
+}
+.Linux-shell pre{
+    background: white;
+    padding: 10px;
+}
+
+
+.docker-cmd{
+    border: 1px solid black;
+    height: 10vh;
+    width: 50vw;
+    background: #fff;
+}
+.docker-cmd span{
+    background: #fff;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+
+.docker-cmd span #dcn{
+    background: #fff;
+    font-weight: 500;
+    width: 7vw;
+    border-top-style: hidden;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: groove;
+}
+.docker-cmd span #dcmd{
+    background: #fff;
+    font-weight: 500;
+    width: 17vw;
+    border-top-style: hidden;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: groove;
+}
+.docker-cmd span input:focus{
+    outline: none;
+}
+
+.docker-cmd button{
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    width: 125px;
+    height: 25px;
+}
+.docker-cmd button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.docker-shell{
+    border: 1px solid black;
+    height: 30vh;
+    width: 50vw;
+    background: white;
+    padding: 10px;
+
+}
+.docker-shell pre{
+    background: white;
+    padding: 10px;
+}
+
+
